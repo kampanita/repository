@@ -1,0 +1,15 @@
+ 
+<settings>
+   <category>
+    <setting label="[I]Activar [COLOR red]proxy[/COLOR]:[/I]" id="prx" type="bool" value="true" />
+	<setting label="[COLOR red]proxy[/COLOR]:" id="proxy" type="text" value="14.139.189.213:3128" />
+    <setting id="escogido" type="text" visible="false" value="[COLOR red]1-Personal[/COLOR]" />    
+    <setting label="[COLOR red]Lista Servidores  [/COLOR]:" id="lista" type="text" visible="true" value="u1HKzAiA,XHNH4gLG,y4GfW2JR,wm4dhKXb,RPePNabd,xSU7UVac,FzgyWTJ8,Kg4mJV4Z,MF2xRxKn,8TjcEVkL,VJEUdJrh,vU0CYvX6,fvjEnkv0,DeNXGKh5,LhdHzmdc,Vh88twqK,CkcHxRv0,6dmhPy3t,vak7sx3r,DyFZDpK8,2qYwfb4h,Aww9Cepm"/>
+    <setting label="[COLOR green]Nombres Servidores[/COLOR]:" id="lista_servidores" type="text" visible="true" value="[B][I][COLOR lime]Special Only One[/COLOR][/I][/B],[COLOR darkorange]Personal[/COLOR],ThisIsForYou,xTRA,cdn,NipTV,[COLOR blue]ClientPortal[/COLOR],[COLOR red]Another One[/COLOR],[COLOR tomato]GoRDiTo[/COLOR],[COLOR peachpuff]ontvbox[/COLOR],[COLOR red]PPPV[/COLOR],[COLOR brown]1hdhd[/COLOR],[COLOR sienna]Geostream[/COLOR],[COLOR magenta]Luckytvpro[/COLOR],[COLOR orange]eSTRoNdO[/COLOR],[COLOR green]SoNiC[/COLOR],[COLOR chocolate]ExtraMonio[/COLOR],[COLOR mintcream]Neo[/COLOR],[COLOR red]DiMa[/COLOR],[COLOR cyan]Infomaniac[COLOR], [COLOR green]Infomaniac2[/COLOR]"/>
+    <setting id="mac2" type="text" visible="false" value="00:1a:79:6c:43:86" />
+    <setting id="portal2" type="text" visible="false" value="http://portal.wag-iptv.de:8080/" />
+    <setting label="Guardar Favoritos" id="favs" type="bool" visible="true" value="true" />
+    <setting label="Canales [I][B]pr[COLOR red]0[/COLOR]n[/B][/I]:" id="pr0n" type="bool" visible="true" value="true" />
+    <setting id="ser" type="text" visible="false" value="Kg4mJV4Z" />
+   </category>
+</settings>

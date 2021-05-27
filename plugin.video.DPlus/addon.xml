@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+	id="plugin.video.dplus" version="2.0" name="dplus" provider-name="iNKuBo">
+<requires>
+    <import addon="plugin.video.youtube" /> 
+    <import addon="script.module.requests" />    
+    <import addon="script.module.six" />
+	
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	
+	 <extension point="xbmc.addon.repository" name="Kampanita Repo">
+        <info>https://github.com/kampanita/repository/blob/master/addon.xml</info>
+        <checksum>https://github.com/kampanita/repository/blob/master/addons.xml.md6</checksum>
+        <datadir zip="true">https://github.com/kampanita/repository/blob/master/</datadir>
+    </extension>
+	
+	
+	<extension point="xbmc.addon.metadata">
+                <platform>all</platform>
+		<summary lang="en">DPlus</summary>
+		<summary lang="da">DPlus</summary>
+		<description lang="en">DPlus </description>
+		<website></website>
+		<license>GPL 3.0</license>
+		<platform>all</platform>
+<assets>
+        <icon>icon.jpg</icon>
+        <fanart>fanart.png</fanart>
+    </assets>        
+		<language>es</language>
+	</extension>
+</addon>

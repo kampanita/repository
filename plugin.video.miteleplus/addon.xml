@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+	id="plugin.video.miteleplus" version="1.0" name="miteleplus" provider-name="iNKuBo">
+<requires>
+    <import addon="script.module.requests" />    
+    <import addon="script.module.six" />
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	
+	 <extension point="xbmc.addon.repository" name="Kampanita Repo">
+        <info>https://github.com/kampanita/repository/blob/master/addon.xml</info>
+        <checksum>https://github.com/kampanita/repository/blob/master/addons.xml.md6</checksum>
+        <datadir zip="true">https://github.com/kampanita/repository/blob/master/</datadir>
+    </extension>
+	
+	
+	<extension point="xbmc.addon.metadata">
+                <platform>all</platform>
+		<summary lang="en">miteleplus</summary>
+		<summary lang="da">miteleplus</summary>
+		<description lang="en">MiTelePlus</description>
+		<website></website>
+		<license>GPL 3.0</license>
+		<platform>all</platform>
+<assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.png</fanart>
+    </assets>        
+		<language>es</language>
+	</extension>
+</addon>
