@@ -11,7 +11,7 @@
 >> * [Repository Kampanita](https://github.com/kampanita/repository/raw/master/repository.kampanita-2.2.1.zip)
 
 > ##### Video
->> * [KepaIPTV](https://github.com/kampanita/repository/raw/master/plugin.video.kepaiptv-2.2.zip)
+>> * [KepaIPTV](https://github.com/kampanita/repository/raw/master/plugin.video.kepaiptv-2.1.zip)
 
 >> * [DoNotPPV](https://github.com/kampanita/repository/raw/master/plugin.video.donotppv-1.0.zip)
 >>> * [ATP]()
