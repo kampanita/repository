@@ -1592,3 +1592,8 @@ plugin.video.donotppv/default.py
 plugin.video.donotppv/enc_enc_default.py
 plugin.video.donotppv/default.py
 plugin.video.donotppv/default.py
+plugin.video.donotppv/_default.py
+plugin.video.donotppv/default2.py
+plugin.video.donotppv/default3.py
+plugin.video.donotppv/default4.py
+plugin.video.atp/default.py.original
