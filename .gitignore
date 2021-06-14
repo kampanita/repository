@@ -1598,3 +1598,5 @@ plugin.video.donotppv/default3.py
 plugin.video.donotppv/default4.py
 plugin.video.atp/default.py.original
 plugin.video.donotppv/default.py.original
+script.backchanger/default.py.original
+script.backchanger/encripta.bat
