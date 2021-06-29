@@ -1,116 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-	<addon id="service.noip.org"
-       name="NoIp client service"
-       version="1.0.1"
-       provider-name="kampanita">
-		<extension point="xbmc.service" library="service.py" start="login" />
-		<extension point="xbmc.addon.repository" name="tvchopo">
-			<info>https://github.com/kampanita/repository/blob/master/addon.xml</info>
-			<checksum>https://github.com/kampanita/repository/blob/master/addons.xml.md6</checksum>
-			<datadir zip="true">https://github.com/kampanita/repository/blob/master/</datadir>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<platform>all</platform>
-			<summary lang="en">NoIp client service</summary>
-			<description lang="en">No ip-client for dns made for you by Kampanita inkubopunk.org</description>
-			<license>GNU General Public License, v2</license>
-			<language></language>
-			<forum>http://forum.kodi.tv/showthread.php?tid=209948</forum>
-			<source>https://github.com/kampanita/service.noip.org</source>
-			<email>kampanita@gmail.com</email>
-		</extension>
-	</addon>
-	<addon id="plugin.video.kepaiptv" version="2.2" name="[COLOR red]K[COLOR white]epa[COLOR green] IPTV[/COLOR]" provider-name="iNKuBo">
-		<requires>
-			<import addon="script.module.requests" />
-			<import addon="script.module.six" />
-		</requires>
-		<extension point="xbmc.python.pluginsource" library="default.py">
-			<provides>video</provides>
-		</extension>
-		<extension point="xbmc.addon.repository" name="Kampanita Repo">
-			<info>https://github.com/kampanita/repository/blob/master/addon.xml</info>
-			<checksum>https://github.com/kampanita/repository/blob/master/addons.xml.md6</checksum>
-			<datadir zip="true">https://github.com/kampanita/repository/blob/master/</datadir>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<platform>all</platform>
-			<summary lang="es">Personal addon for IPTV</summary>
-			<description lang="es">This addon provides IPTV for personal and private use only. Works on Kodi 17-18</description>
-			<website>https://github.com/kampanita/repository</website>
-			<license>GPL 3.0</license>
-			<platform>all</platform>
-			<disclaimer lang="es">The author of this addon makes not responsible for the use of it</disclaimer>
-			<assets>
-				<icon>icon.jpg</icon>
-				<fanart>fanart.png</fanart>
-			</assets>
-			<language>es</language>
-		</extension>
-	</addon>
-	<addon
-	id="plugin.video.donotppv" version="1.0" name="[B]Do Not[/B] [COLOR red]PPV[/COLOR]" provider-name="iNKuBo">
-		<requires>
-			<import addon="script.module.requests" />
-			<import addon="script.module.six" />
-		</requires>
-		<extension point="xbmc.python.pluginsource" library="default.py">
-			<provides>video</provides>
-		</extension>
-		<extension point="xbmc.addon.repository" name="Kampanita Repo">
-			<info>https://github.com/kampanita/repository/blob/master/addon.xml</info>
-			<checksum>https://github.com/kampanita/repository/blob/master/addons.xml.md6</checksum>
-			<datadir zip="true">https://github.com/kampanita/repository/blob/master/</datadir>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<platform>all</platform>
-			<summary lang="en">Do Not PPV</summary>
-			<summary lang="da">Do Not PPV</summary>
-			<description lang="en">Author does not make responsible for the use of this addon.</description>
-			<disclaimer lang="en_GB">Feel free to use this addon. Do not ask for help. This addon is only for educational porpouse.</disclaimer>
-			<website></website>
-			<license>GPL 3.0</license>
-			<platform>all</platform>
-			<assets>
-				<icon>icon.png</icon>
-				<fanart>fanart.png</fanart>
-			</assets>
-			<language>es</language>
-		</extension>
-	</addon>
-	<addon
-	id="script.backchanger" version="1.0" name="[COLOR red]B[COLOR white]ackGround[COLOR green] Changer[/COLOR] - 1.0" provider-name="iNKuBo">
-		<requires>
-			<import addon="script.module.requests"/>
-		</requires>
-		<extension point="xbmc.python.pluginsource" library="default.py">
-			<provides>executable</provides>
-		</extension>
-		<extension point="xbmc.addon.repository" name="Kampanita Repo">
-			<info>https://github.com/kampanita/repository/blob/master/addon.xml</info>
-			<checksum>https://github.com/kampanita/repository/blob/master/addons.xml.md6</checksum>
-			<datadir zip="true">https://github.com/kampanita/repository/blob/master/</datadir>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<platform>all</platform>
-			<summary lang="es">Personal addon BackGround Chanter</summary>
-			<description lang="es">This addon changes Kodi Background - for personal and private use only</description>
-			<website>https://github.com/kampanita/repository</website>
-			<license>GPL 3.0</license>
-			<platform>all</platform>
-			<disclaimer lang="es">The author of this addon makes not responsible for the use of it</disclaimer>
-			<assets>
-				<icon>icon.jpg</icon>
-				<fanart>fanart.png</fanart>
-			</assets>
-			<language>es</language>
-		</extension>
-	</addon>
-	<!--
-	<addon
-	id="plugin.video.atp" version="1.0" name="atp" provider-name="inkubo"><requires><import addon="script.module.requests" /><import addon="script.module.six" /></requires><extension point="xbmc.python.pluginsource" library="default.py"><provides>video</provides></extension><extension point="xbmc.addon.repository" name="Kampanita Repo"><info>https://github.com/kampanita/repository/blob/master/addon.xml</info><checksum>https://github.com/kampanita/repository/blob/master/addons.xml.md6</checksum><datadir zip="true">https://github.com/kampanita/repository/blob/master/</datadir></extension><extension point="xbmc.addon.metadata"><platform>all</platform><summary lang="en">atp</summary><summary lang="da">atp</summary><description lang="en">atp</description><website></website><license>GPL 3.0</license><platform>all</platform><assets><icon>icon.png</icon><fanart>fanart.png</fanart></assets><language>es</language></extension></addon><addon
-	id="plugin.video.miteleplus" version="1.0" name="miteleplus" provider-name="iNKuBo"><requires><import addon="script.module.requests" /><import addon="script.module.six" /></requires><extension point="xbmc.python.pluginsource" library="default.py"><provides>video</provides></extension><extension point="xbmc.addon.repository" name="Kampanita Repo"><info>https://github.com/kampanita/repository/blob/master/addon.xml</info><checksum>https://github.com/kampanita/repository/blob/master/addons.xml.md6</checksum><datadir zip="true">https://github.com/kampanita/repository/blob/master/</datadir></extension><extension point="xbmc.addon.metadata"><platform>all</platform><summary lang="en">miteleplus</summary><summary lang="da">miteleplus</summary><description lang="en">MiTelePlus</description><website></website><license>GPL 3.0</license><platform>all</platform><assets><icon>icon.png</icon><fanart>fanart.png</fanart></assets><language>es</language></extension></addon><addon
-	id="plugin.video.dplus" version="2.0" name="DPlus" provider-name="iNKuBo"><requires><import addon="plugin.video.youtube" /><import addon="script.module.requests" /><import addon="script.module.six" /></requires><extension point="xbmc.python.pluginsource" library="default.py"><provides>video</provides></extension><extension point="xbmc.addon.repository" name="Kampanita Repo"><info>https://github.com/kampanita/repository/blob/master/addon.xml</info><checksum>https://github.com/kampanita/repository/blob/master/addons.xml.md6</checksum><datadir zip="true">https://github.com/kampanita/repository/blob/master/</datadir></extension><extension point="xbmc.addon.metadata"><platform>all</platform><summary lang="en">DPlus</summary><summary lang="da">DPlus</summary><description lang="en">DPlus </description><website></website><license>GPL 3.0</license><platform>all</platform><assets><icon>icon.jpg</icon><fanart>fanart.png</fanart></assets><language>es</language></extension></addon>
--->
+   <addon id="service.noip.org" name="NoIp client service" version="1.0.1" provider-name="kampanita">
+      <extension point="xbmc.service" library="service.py" start="login" />
+      <extension point="xbmc.addon.repository" name="tvchopo">
+         <info>https://github.com/kampanita/repository/blob/master/addon.xml</info>
+         <checksum>https://github.com/kampanita/repository/blob/master/addons.xml.md6</checksum>
+         <datadir zip="true">https://github.com/kampanita/repository/blob/master/</datadir>
+      </extension>
+      <extension point="xbmc.addon.metadata">
+         <platform>all</platform>
+         <summary lang="en">NoIp client service</summary>
+         <description lang="en">No ip-client for dns made for you by Kampanita inkubopunk.org</description>
+         <license>GNU General Public License, v2</license>
+         <language />
+         <forum>http://forum.kodi.tv/showthread.php?tid=209948</forum>
+         <source>https://github.com/kampanita/service.noip.org</source>
+         <email>kampanita@gmail.com</email>
+      </extension>
+   </addon>
+   <addon id="plugin.video.kepaiptv" version="2.1" name="[COLOR red]K[COLOR white]epa[COLOR green] IPTV[/COLOR]" provider-name="iNKuBo">
+      <requires>
+         <import addon="script.module.requests" />
+         <import addon="script.module.six" />
+      </requires>
+      <extension point="xbmc.python.pluginsource" library="default.py">
+         <provides>video</provides>
+      </extension>
+      <extension point="xbmc.addon.repository" name="Kampanita Repo">
+         <info>https://github.com/kampanita/repository/blob/master/addon.xml</info>
+         <checksum>https://github.com/kampanita/repository/blob/master/addons.xml.md6</checksum>
+         <datadir zip="true">https://github.com/kampanita/repository/blob/master/</datadir>
+      </extension>
+      <extension point="xbmc.addon.metadata">
+         <platform>all</platform>
+         <summary lang="es">Personal addon for IPTV</summary>
+         <description lang="es">This addon provides IPTV for personal and private use only. Works on Kodi 17-18</description>
+         <website>https://github.com/kampanita/repository</website>
+         <license>GPL 3.0</license>
+         <platform>all</platform>
+         <disclaimer lang="es">The author of this addon makes not responsible for the use of it</disclaimer>
+         <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.png</fanart>
+         </assets>
+         <language>es</language>
+      </extension>
+   </addon>
+   <addon id="plugin.video.donotppv" version="1.1" name="[B]Do Not[/B] [COLOR red]PPV[/COLOR]" provider-name="iNKuBo">
+      <requires>
+         <import addon="script.module.requests" />
+         <import addon="script.module.six" />
+      </requires>
+      <extension point="xbmc.python.pluginsource" library="default.py">
+         <provides>video</provides>
+      </extension>
+      <extension point="xbmc.addon.repository" name="Kampanita Repo">
+         <info>https://github.com/kampanita/repository/blob/master/addon.xml</info>
+         <checksum>https://github.com/kampanita/repository/blob/master/addons.xml.md6</checksum>
+         <datadir zip="true">https://github.com/kampanita/repository/blob/master/</datadir>
+      </extension>
+      <extension point="xbmc.addon.metadata">
+         <platform>all</platform>
+         <summary lang="en">Do Not PPV</summary>
+         <summary lang="da">Do Not PPV</summary>
+         <description lang="en">Author does not make responsible for the use of this addon.</description>
+         <disclaimer lang="en_GB">Feel free to use this addon. Do not ask for help. This addon is only for educational porpouse.</disclaimer>
+         <website />
+         <license>GPL 3.0</license>
+         <platform>all</platform>
+         <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+         </assets>
+         <language>es</language>
+      </extension>
+   </addon>
+   <addon id="script.backchanger" version="1.0" name="[COLOR red]B[COLOR white]ackGround[COLOR green] Changer[/COLOR] - 1.0" provider-name="iNKuBo">
+      <requires>
+         <import addon="script.module.requests" />
+      </requires>
+      <extension point="xbmc.python.pluginsource" library="default.py">
+         <provides>executable</provides>
+      </extension>
+      <extension point="xbmc.addon.repository" name="Kampanita Repo">
+         <info>https://github.com/kampanita/repository/blob/master/addon.xml</info>
+         <checksum>https://github.com/kampanita/repository/blob/master/addons.xml.md6</checksum>
+         <datadir zip="true">https://github.com/kampanita/repository/blob/master/</datadir>
+      </extension>
+      <extension point="xbmc.addon.metadata">
+         <platform>all</platform>
+         <summary lang="es">Personal addon BackGround Chanter</summary>
+         <description lang="es">This addon changes Kodi Background - for personal and private use only</description>
+         <website>https://github.com/kampanita/repository</website>
+         <license>GPL 3.0</license>
+         <platform>all</platform>
+         <disclaimer lang="es">The author of this addon makes not responsible for the use of it</disclaimer>
+         <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.png</fanart>
+         </assets>
+         <language>es</language>
+      </extension>
+   </addon>
 </addons>
