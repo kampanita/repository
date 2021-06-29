@@ -13,7 +13,7 @@
 > ##### Video
 >> * [KepaIPTV](https://github.com/kampanita/repository/raw/master/plugin.video.kepaiptv-2.1.zip)
 
->> * [DoNotPPV](https://github.com/kampanita/repository/raw/master/plugin.video.donotppv-1.0.zip)
+>> * [DoNotPPV](https://github.com/kampanita/repository/raw/master/plugin.video.donotppv-1.1.zip)
 >>> * [ATP]()
 >>> * [MiT+]()
 >>> * [DPlus]()
