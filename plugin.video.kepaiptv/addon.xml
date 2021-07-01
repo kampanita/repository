@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
 	id="plugin.video.kepaiptv" version="2.3" name="[COLOR red]K[COLOR white]epa[COLOR green] IPTV[/COLOR]" provider-name="iNKuBo">
-   <requires>    		
+<requires>    		
     	<!--<import addon="script.module.resolveurl" />-->    	
 	    <import addon="script.module.requests"/>	
-		<import addon="script.module.six"/>	
-
+            <import addon="script.module.six"/>	
   </requires>
 	<extension point="xbmc.python.pluginsource" library="default_e.py">
 		<provides>video</provides>
