@@ -18,7 +18,7 @@
          <email>kampanita@gmail.com</email>
       </extension>
    </addon>
-   <addon id="plugin.video.kepaiptv" version="2.1" name="[COLOR red]K[COLOR white]epa[COLOR green] IPTV[/COLOR]" provider-name="iNKuBo">
+   <addon id="plugin.video.kepaiptv" version="2.3" name="[COLOR red]K[COLOR white]epa[COLOR green] IPTV[/COLOR]" provider-name="iNKuBo">
       <requires>
          <import addon="script.module.requests" />
          <import addon="script.module.six" />

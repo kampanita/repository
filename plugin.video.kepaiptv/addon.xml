@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-	id="plugin.video.kepaiptv" version="2.2" name="[COLOR red]K[COLOR white]epa[COLOR green] IPTV[/COLOR]-2.2" provider-name="iNKuBo">
+	id="plugin.video.kepaiptv" version="2.3" name="[COLOR red]K[COLOR white]epa[COLOR green] IPTV[/COLOR]" provider-name="iNKuBo">
 <requires>    		
     	<!--<import addon="script.module.resolveurl" />-->    	
 	    <import addon="script.module.requests"/>	
