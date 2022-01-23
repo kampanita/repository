@@ -1,0 +1,13 @@
+<settings>
+    <setting id="SetColor" value="white" />
+    <setting id="escogido" value="Fichero_LOCAL" />
+    <setting id="favs" value="false" />
+    <setting id="lista" value="nNJqHF0V,xaBvU1t1,wk9nzRFP,sG4Kqt0t,u1HKzAiA,XHNH4gLG,y4GfW2JR,wm4dhKXb,RPePNabd,xSU7UVac,FzgyWTJ8,Kg4mJV4Z,MF2xRxKn,8TjcEVkL,VJEUdJrh,vU0CYvX6,fvjEnkv0,DeNXGKh5,LhdHzmdc,Vh88twqK,CkcHxRv0,6dmhPy3t,vak7sx3r,DyFZDpK8,2qYwfb4h,Aww9Cepm,sXrnr8nt,fgqDLFbT,eR9KD0j9,sG4Kqt0t,wuuhiuEj" />
+    <setting id="lista_servidores" value="3,4,6,7,[B][I][COLOR lime]Special Only One[/COLOR][/I][/B],[COLOR darkorange]Personal[/COLOR],ThisIsForYou,xTRA,cdn,NipTV,[COLOR blue]ClientPortal[/COLOR],[COLOR red]Another One[/COLOR],[COLOR tomato]GoRDiTo[/COLOR],[COLOR peachpuff]ontvbox[/COLOR],[COLOR red]PPPV[/COLOR],[COLOR brown]1hdhd[/COLOR],[COLOR sienna]Geostream[/COLOR],[COLOR magenta]Luckytvpro[/COLOR],[COLOR orange]eSTRoNdO[/COLOR],[COLOR green]SoNiC[/COLOR],[COLOR chocolate]ExtraMonio[/COLOR],[COLOR mintcream]Neo[/COLOR],[COLOR red]DiMa[/COLOR],[COLOR cyan]Infomaniac[/COLOR],Comet,[COLOR green]Infomaniac2[/COLOR],SoNiC2,[COLOR chocolate]Mustard[/COLOR],[COLOR gray]Arreglar[/COLOR],[COLOR orange]akChatix[/COLOR],king" />
+    <setting id="mac2" value="00:1A:79:51:EA:F5" />
+    <setting id="portal2" value="http://h.cctvforyou.tk:8880/" />
+    <setting id="pr0n" value="true" />
+    <setting id="proxy" value="103.214.54.90:8080" />
+    <setting id="prx" value="false" />
+    <setting id="ser" value="http://h.cctvforyou.tk:8880/" />
+</settings>

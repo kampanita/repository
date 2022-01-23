@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.kampanita" name="Kampanita Repo" version="2.2.1" provider-name="kampanita">
+	<extension point="xbmc.addon.repository" name="Kampanita Repo">
+		<info>https://raw.githubusercontent.com/kampanita/repository/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kampanita/repository/master/addons.xml.md6</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kampanita/repository/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repositorio personal</summary>
+		<description>Repositorio personal de Kampanita</description>
+		<disclaimer>For personal use only!</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
